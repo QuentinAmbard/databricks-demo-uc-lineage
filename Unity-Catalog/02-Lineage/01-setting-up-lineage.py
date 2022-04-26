@@ -114,10 +114,11 @@ dinner_price.write.mode("overwrite").saveAsTable("main.lineage.dinner_price")
 # MAGIC 1. Select the `Table`
 # MAGIC 1. Select the `Lineage` tab on the right part of the page
 # MAGIC 1. You can visualize the full lineage by pressing the `See Lineage Graph` button
-# MAGIC 1. Or you can visualize the Upstream and Downstream tables as a table in the lower-right part of the page
+# MAGIC 1. By default the graph is condensed. By clicking on the boxes you can expand them and visualize the full lineage.
 # MAGIC 
-# MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/_images/lineage_ui_2.png?raw=true" width="700"/>
-# MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/_images/lineage_ui_1.png?raw=true" width="700"/>
+# MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/_images/lineage_ui_2.png?raw=true" width="500"/>
+# MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/_images/lineage_ui_1.png?raw=true" width="500"/>
+# MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/_images/lineage_ui_3.png?raw=true" width="535"/>
 
 # COMMAND ----------
 
@@ -135,12 +136,10 @@ dinner_price.write.mode("overwrite").saveAsTable("main.lineage.dinner_price")
 # MAGIC 
 # MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/_images/lineage_ui_2.png?raw=true" width="500"/>
 # MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/_images/lineage_ui_1.png?raw=true" width="500"/>
-# MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/_images/lineage_ui_3.png?raw=true" width="500"/>
+# MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/_images/lineage_ui_3.png?raw=true" width="535"/>
 
 # COMMAND ----------
 
-# MAGIC %md-sandbox ## 5/ Table ACLs and Lineage Redaction
+# MAGIC %md-sandbox ## 6/ Lineage Permission Model
 # MAGIC 
-# MAGIC To visualize this first table in the Lineage View, go to the part of the Workspace dedicated to the SQL Persona, then
-# MAGIC 
-# MAGIC <img src="https://github.com/QuentinAmbard/databricks-demo/raw/main/product_demos/uc/external/uc-external-location-cred.png" width="400"/>
+# MAGIC The Lineage in Unity Catalog takes into
