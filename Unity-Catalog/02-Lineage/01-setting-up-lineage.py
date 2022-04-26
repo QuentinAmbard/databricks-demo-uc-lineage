@@ -30,7 +30,7 @@
 
 # COMMAND ----------
 
-# MAGIC %run ./_resources/00-setup $reset_all_data=$reset_all_data
+# MAGIC %run ./_resources/00-setup
 
 # COMMAND ----------
 
