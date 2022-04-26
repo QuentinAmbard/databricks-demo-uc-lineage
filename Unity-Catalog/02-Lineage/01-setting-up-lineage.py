@@ -30,6 +30,10 @@
 
 # COMMAND ----------
 
+# MAGIC %run ./_resources/00-setup $reset_all_data=$reset_all_data
+
+# COMMAND ----------
+
 # MAGIC %md-sandbox ## 1/ Create a Delta Table In Unity Catalog
 # MAGIC 
 # MAGIC <img src="https://github.com/QuentinAmbard/databricks-demo/raw/main/product_demos/uc/external/uc-external-location-1.png" style="float:right; margin-left:10px" width="600"/>
