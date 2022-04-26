@@ -107,7 +107,7 @@ dinner_price.write.mode("overwrite").saveAsTable("main.lineage.dinner_price")
 
 # MAGIC %md-sandbox ## 4/ Visualize Table Lineage
 # MAGIC 
-# MAGIC The Lineage can be visualized in the Data Explorer of the part of the Workspace dedicated to the SQL Persona.
+# MAGIC The Lineage can be visualized in the `Data Explorer` of the part of the Workspace dedicated to the `SQL Persona`.
 # MAGIC 
 # MAGIC 1. Select the `Catalog`
 # MAGIC 1. Select the `Schema`
@@ -116,12 +116,26 @@ dinner_price.write.mode("overwrite").saveAsTable("main.lineage.dinner_price")
 # MAGIC 1. You can visualize the full lineage by pressing the `See Lineage Graph` button
 # MAGIC 1. Or you can visualize the Upstream and Downstream tables as a table in the lower-right part of the page
 # MAGIC 
-# MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/_images/lineage_ui_1.png?raw=true" width="700"/>
 # MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/_images/lineage_ui_2.png?raw=true" width="700"/>
+# MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/_images/lineage_ui_1.png?raw=true" width="700"/>
 
 # COMMAND ----------
 
-
+# MAGIC %md-sandbox ## 5/ Visualize Column Lineage
+# MAGIC 
+# MAGIC The Lineage can be visualized in the `Data Explorer` of the part of the Workspace dedicated to the `SQL Persona`.
+# MAGIC 
+# MAGIC 1. Select the `Catalog`
+# MAGIC 1. Select the `Schema`
+# MAGIC 1. Select the `Table`
+# MAGIC 1. Select the `Lineage` tab on the right part of the page
+# MAGIC 1. You can visualize the full lineage by pressing the `See Lineage Graph` button
+# MAGIC 1. Or you can visualize the Upstream and Downstream tables as a table in the lower-right part of the page
+# MAGIC 1. By default the graph is condensed. By clicking on the boxes you can expand them and visualize the full lineage.
+# MAGIC 
+# MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/_images/lineage_ui_2.png?raw=true" width="500"/>
+# MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/_images/lineage_ui_1.png?raw=true" width="500"/>
+# MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/_images/lineage_ui_3.png?raw=true" width="500"/>
 
 # COMMAND ----------
 
