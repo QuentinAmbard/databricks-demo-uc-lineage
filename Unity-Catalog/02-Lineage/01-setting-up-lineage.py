@@ -2,6 +2,7 @@
 # MAGIC %md-sandbox
 # MAGIC # Show Lineage for Delta Tables in Unity Catalog
 # MAGIC 
+# MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/_images/lineage.png?raw=true" style="float:right; margin-left:10px" width="700"/>
 # MAGIC 
 # MAGIC Unity Catalog captures runtime data lineage for any table to table operation executed on a Databricks cluster or SQL endpoint. Lineage operates across all languages (SQL, Python, Scala and R) and it can be visualized in the Data Explorer in near-real-time, and also retrieved via REST API.
 # MAGIC 
@@ -13,7 +14,7 @@
 # MAGIC 
 # MAGIC ## Working with Lineage
 # MAGIC 
-# MAGIC <img src="https://github.com/mattiazenidb/databricks-demo-uc-lineage/blob/master/Unity-Catalog/02-Lineage/Images/initial.png?raw=true" style="float:right; margin-left:10px" width="1200"/>
+# MAGIC <img src="https://github.com/QuentinAmbard/databricks-demo/raw/main/product_demos/uc/external/uc-external-location.png" style="float:right; margin-left:10px" width="600"/>
 # MAGIC 
 # MAGIC No modifications are needed to the existing code to generate the lineage.
 # MAGIC 
